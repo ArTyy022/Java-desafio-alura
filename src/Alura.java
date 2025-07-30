@@ -10,5 +10,11 @@ public class Alura {
         System.out.println("Qual o ano de lançamento? ");
         int anoDeLancamento = leitura.nextInt();
         System.out.println("O ano de lançamento do filme " + filme +  " é " + anoDeLancamento);
+        System.out.println("Digite sua avaliação");
+        double avaliacao = leitura.nextDouble();
+
+        System.out.println("Filme : " + filme);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+        System.out.println("Avaliação: " + avaliacao);
     }
 }
